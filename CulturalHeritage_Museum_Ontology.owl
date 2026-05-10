@@ -1,0 +1,1240 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/cultural-heritage/ontologies/2026/museum"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/cultural-heritage/ontologies/2026/museum"
+     versionIRI="http://www.semanticweb.org/cultural-heritage/ontologies/2026/museum/1.0.0">
+    <Prefix name="" IRI="http://www.semanticweb.org/cultural-heritage/ontologies/2026/museum#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>An OWL 2 DL ontology modelling cultural artefacts, museum spaces, persons, exhibitions, conservation events, loans, historical periods, and digital guidance technology.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal>Cultural Heritage / Museum Ontology</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#APITraffic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AccessibleExhibition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AcquisitionEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antiquity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AudioRecording"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Baroque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bequest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ceramic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConservationEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConservationLab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConservationStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conservator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contemporary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CulturalArtefact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Curator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DigitalArtefact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DigitalGuideApp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DigitalPainting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocumentaryArtefact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Donation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Donor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnvironmentSensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exhibition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExhibitionHall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gallery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighSecurityArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HistoricalPeriod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationKiosk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inscription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InteractiveExhibition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jewellery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LoanEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LostArtefact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManuscriptDocument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Masterpiece"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedievalPeriod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModernPeriod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MuseumDevice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MuseumSpace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Painting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PermanentExhibition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Photograph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalArtefact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrintedBook"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProvenanceRecord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PublicArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Purchase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Renaissance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RequiresRestoration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Researcher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RestrictedArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sculpture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecurityCamera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StableCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StorageVault"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemporaryExhibition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Textile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThreeDModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TravellingExhibition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnderRestoration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VirtualExhibition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Visitor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weapon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WellDocumentedArtefact"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#acquiredVia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#appliedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsToPeriod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#created"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#createdBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#curatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#donatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#exhibitedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#generatesNetworkData"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProvenanceRecord"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hosts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#loanedFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#loanedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#locatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#makesAPICall"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#monitoredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#restoredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesApp"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#visitedBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAccessionNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasBirthYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCapacity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasClosingDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCreationYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDimensions"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasInsuranceValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMaterial"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNationality"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasOpeningDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isInsured"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#APICall_ArtworkInfo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Camera_A1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Camera_A2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Camera_A3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Conservator_Elena"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Curator_Isabelle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DaVinci"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hammurabi_Code"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InfoKiosk_Hall1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LeonardoExhibition2026"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LouvreGuideApp_v2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Louvre_SalleDesEtats"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Louvre_Vault1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MonaLisa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Provenance_MonaLisa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RenaissancePeriod"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StableStatus_MonaLisa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VenusOfMilo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visitor_Marco"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="xsd:positiveInteger"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="xsd:string"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="xsd:boolean"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="xsd:gYear"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:gYear"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="xsd:date"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#AccessibleExhibition"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Exhibition"/>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#contains"/>
+                <Class IRI="#InformationKiosk"/>
+            </ObjectMinCardinality>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#hosts"/>
+                <Class IRI="#CulturalArtefact"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#HighSecurityArea"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MuseumSpace"/>
+            <ObjectMinCardinality cardinality="3">
+                <ObjectProperty IRI="#monitoredBy"/>
+                <Class IRI="#SecurityCamera"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#InteractiveExhibition"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Exhibition"/>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#contains"/>
+                <Class IRI="#DigitalGuideApp"/>
+            </ObjectMinCardinality>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#contains"/>
+                <Class IRI="#InformationKiosk"/>
+            </ObjectMinCardinality>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#hosts"/>
+                <Class IRI="#CulturalArtefact"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Masterpiece"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PhysicalArtefact"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#belongsToPeriod"/>
+                <Class IRI="#HistoricalPeriod"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasConservationStatus"/>
+                <Class IRI="#StableCondition"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasProvenanceRecord"/>
+                <Class IRI="#ProvenanceRecord"/>
+            </ObjectSomeValuesFrom>
+            <DataHasValue>
+                <DataProperty IRI="#isInsured"/>
+                <Literal datatypeIRI="xsd:boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#WellDocumentedArtefact"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CulturalArtefact"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#belongsToPeriod"/>
+                <Class IRI="#HistoricalPeriod"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#createdBy"/>
+                <Class IRI="#Artist"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasProvenanceRecord"/>
+                <Class IRI="#ProvenanceRecord"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Antiquity"/>
+        <Class IRI="#HistoricalPeriod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artist"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AudioRecording"/>
+        <Class IRI="#DigitalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baroque"/>
+        <Class IRI="#HistoricalPeriod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bequest"/>
+        <Class IRI="#AcquisitionEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ceramic"/>
+        <Class IRI="#PhysicalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coin"/>
+        <Class IRI="#PhysicalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConservationLab"/>
+        <Class IRI="#MuseumSpace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConservationLab"/>
+        <Class IRI="#RestrictedArea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conservator"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contemporary"/>
+        <Class IRI="#HistoricalPeriod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Curator"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DigitalArtefact"/>
+        <Class IRI="#CulturalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DigitalGuideApp"/>
+        <Class IRI="#MuseumDevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DigitalPainting"/>
+        <Class IRI="#DigitalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocumentaryArtefact"/>
+        <Class IRI="#CulturalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Donation"/>
+        <Class IRI="#AcquisitionEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Donor"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnvironmentSensor"/>
+        <Class IRI="#MuseumDevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExhibitionHall"/>
+        <Class IRI="#MuseumSpace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gallery"/>
+        <Class IRI="#MuseumSpace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gallery"/>
+        <Class IRI="#RestrictedArea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationKiosk"/>
+        <Class IRI="#MuseumDevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inscription"/>
+        <Class IRI="#DocumentaryArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jewellery"/>
+        <Class IRI="#PhysicalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LostArtefact"/>
+        <Class IRI="#ConservationStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManuscriptDocument"/>
+        <Class IRI="#DocumentaryArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Map"/>
+        <Class IRI="#DocumentaryArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedievalPeriod"/>
+        <Class IRI="#HistoricalPeriod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModernPeriod"/>
+        <Class IRI="#HistoricalPeriod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Painting"/>
+        <Class IRI="#PhysicalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PermanentExhibition"/>
+        <Class IRI="#Exhibition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Photograph"/>
+        <Class IRI="#PhysicalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalArtefact"/>
+        <Class IRI="#CulturalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrintedBook"/>
+        <Class IRI="#DocumentaryArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicArea"/>
+        <Class IRI="#MuseumSpace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Purchase"/>
+        <Class IRI="#AcquisitionEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Renaissance"/>
+        <Class IRI="#HistoricalPeriod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RequiresRestoration"/>
+        <Class IRI="#ConservationStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Researcher"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RestrictedArea"/>
+        <Class IRI="#MuseumSpace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sculpture"/>
+        <Class IRI="#PhysicalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecurityCamera"/>
+        <Class IRI="#MuseumDevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StableCondition"/>
+        <Class IRI="#ConservationStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StorageVault"/>
+        <Class IRI="#MuseumSpace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StorageVault"/>
+        <Class IRI="#RestrictedArea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemporaryExhibition"/>
+        <Class IRI="#Exhibition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Textile"/>
+        <Class IRI="#PhysicalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThreeDModel"/>
+        <Class IRI="#DigitalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TravellingExhibition"/>
+        <Class IRI="#TemporaryExhibition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnderRestoration"/>
+        <Class IRI="#ConservationStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualExhibition"/>
+        <Class IRI="#Exhibition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Visitor"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weapon"/>
+        <Class IRI="#PhysicalArtefact"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Antiquity"/>
+        <Class IRI="#Baroque"/>
+        <Class IRI="#Contemporary"/>
+        <Class IRI="#MedievalPeriod"/>
+        <Class IRI="#ModernPeriod"/>
+        <Class IRI="#Renaissance"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Artist"/>
+        <Class IRI="#Visitor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bequest"/>
+        <Class IRI="#Donation"/>
+        <Class IRI="#Purchase"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConservationLab"/>
+        <Class IRI="#ExhibitionHall"/>
+        <Class IRI="#Gallery"/>
+        <Class IRI="#StorageVault"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CulturalArtefact"/>
+        <Class IRI="#Exhibition"/>
+        <Class IRI="#MuseumSpace"/>
+        <Class IRI="#Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DigitalArtefact"/>
+        <Class IRI="#DocumentaryArtefact"/>
+        <Class IRI="#PhysicalArtefact"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DigitalGuideApp"/>
+        <Class IRI="#EnvironmentSensor"/>
+        <Class IRI="#InformationKiosk"/>
+        <Class IRI="#SecurityCamera"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LostArtefact"/>
+        <Class IRI="#RequiresRestoration"/>
+        <Class IRI="#StableCondition"/>
+        <Class IRI="#UnderRestoration"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PermanentExhibition"/>
+        <Class IRI="#TemporaryExhibition"/>
+        <Class IRI="#VirtualExhibition"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#APITraffic"/>
+        <NamedIndividual IRI="#APICall_ArtworkInfo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecurityCamera"/>
+        <NamedIndividual IRI="#Camera_A1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecurityCamera"/>
+        <NamedIndividual IRI="#Camera_A2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecurityCamera"/>
+        <NamedIndividual IRI="#Camera_A3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conservator"/>
+        <NamedIndividual IRI="#Conservator_Elena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Curator"/>
+        <NamedIndividual IRI="#Curator_Isabelle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Artist"/>
+        <NamedIndividual IRI="#DaVinci"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inscription"/>
+        <NamedIndividual IRI="#Hammurabi_Code"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InformationKiosk"/>
+        <NamedIndividual IRI="#InfoKiosk_Hall1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TemporaryExhibition"/>
+        <NamedIndividual IRI="#LeonardoExhibition2026"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DigitalGuideApp"/>
+        <NamedIndividual IRI="#LouvreGuideApp_v2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gallery"/>
+        <NamedIndividual IRI="#Louvre_SalleDesEtats"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StorageVault"/>
+        <NamedIndividual IRI="#Louvre_Vault1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Painting"/>
+        <NamedIndividual IRI="#MonaLisa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProvenanceRecord"/>
+        <NamedIndividual IRI="#Provenance_MonaLisa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Renaissance"/>
+        <NamedIndividual IRI="#RenaissancePeriod"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StableCondition"/>
+        <NamedIndividual IRI="#StableStatus_MonaLisa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sculpture"/>
+        <NamedIndividual IRI="#VenusOfMilo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visitor"/>
+        <NamedIndividual IRI="#Visitor_Marco"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#created"/>
+        <NamedIndividual IRI="#DaVinci"/>
+        <NamedIndividual IRI="#MonaLisa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#LeonardoExhibition2026"/>
+        <NamedIndividual IRI="#InfoKiosk_Hall1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#LeonardoExhibition2026"/>
+        <NamedIndividual IRI="#LouvreGuideApp_v2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#curatedBy"/>
+        <NamedIndividual IRI="#LeonardoExhibition2026"/>
+        <NamedIndividual IRI="#Curator_Isabelle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hosts"/>
+        <NamedIndividual IRI="#LeonardoExhibition2026"/>
+        <NamedIndividual IRI="#MonaLisa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#makesAPICall"/>
+        <NamedIndividual IRI="#LouvreGuideApp_v2"/>
+        <NamedIndividual IRI="#APICall_ArtworkInfo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#monitoredBy"/>
+        <NamedIndividual IRI="#Louvre_SalleDesEtats"/>
+        <NamedIndividual IRI="#Camera_A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#monitoredBy"/>
+        <NamedIndividual IRI="#Louvre_SalleDesEtats"/>
+        <NamedIndividual IRI="#Camera_A2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#monitoredBy"/>
+        <NamedIndividual IRI="#Louvre_SalleDesEtats"/>
+        <NamedIndividual IRI="#Camera_A3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToPeriod"/>
+        <NamedIndividual IRI="#MonaLisa"/>
+        <NamedIndividual IRI="#RenaissancePeriod"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exhibitedIn"/>
+        <NamedIndividual IRI="#MonaLisa"/>
+        <NamedIndividual IRI="#LeonardoExhibition2026"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <NamedIndividual IRI="#MonaLisa"/>
+        <NamedIndividual IRI="#StableStatus_MonaLisa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProvenanceRecord"/>
+        <NamedIndividual IRI="#MonaLisa"/>
+        <NamedIndividual IRI="#Provenance_MonaLisa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedIn"/>
+        <NamedIndividual IRI="#MonaLisa"/>
+        <NamedIndividual IRI="#Louvre_SalleDesEtats"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesApp"/>
+        <NamedIndividual IRI="#Visitor_Marco"/>
+        <NamedIndividual IRI="#LouvreGuideApp_v2"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasBirthYear"/>
+        <NamedIndividual IRI="#DaVinci"/>
+        <Literal datatypeIRI="xsd:gYear">1452</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#DaVinci"/>
+        <Literal datatypeIRI="xsd:string">Leonardo da Vinci</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNationality"/>
+        <NamedIndividual IRI="#DaVinci"/>
+        <Literal datatypeIRI="xsd:string">Italian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasClosingDate"/>
+        <NamedIndividual IRI="#LeonardoExhibition2026"/>
+        <Literal datatypeIRI="xsd:date">2026-09-30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpeningDate"/>
+        <NamedIndividual IRI="#LeonardoExhibition2026"/>
+        <Literal datatypeIRI="xsd:date">2026-03-01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCapacity"/>
+        <NamedIndividual IRI="#Louvre_SalleDesEtats"/>
+        <Literal datatypeIRI="xsd:positiveInteger">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAccessionNumber"/>
+        <NamedIndividual IRI="#MonaLisa"/>
+        <Literal datatypeIRI="xsd:string">INV779</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCreationYear"/>
+        <NamedIndividual IRI="#MonaLisa"/>
+        <Literal datatypeIRI="xsd:gYear">1503</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDimensions"/>
+        <NamedIndividual IRI="#MonaLisa"/>
+        <Literal datatypeIRI="xsd:string">77 cm × 53 cm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaterial"/>
+        <NamedIndividual IRI="#MonaLisa"/>
+        <Literal datatypeIRI="xsd:string">Oil on poplar panel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#MonaLisa"/>
+        <Literal datatypeIRI="xsd:string">Mona Lisa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isInsured"/>
+        <NamedIndividual IRI="#MonaLisa"/>
+        <Literal datatypeIRI="xsd:boolean">true</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#created"/>
+        <ObjectProperty IRI="#createdBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#exhibitedIn"/>
+        <ObjectProperty IRI="#hosts"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPart"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#loanedFrom"/>
+        <ObjectProperty IRI="#loanedTo"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+    </FunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasPart"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isPartOf"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#acquiredVia"/>
+        <Class IRI="#CulturalArtefact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#appliedTo"/>
+        <Class IRI="#ConservationEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsToPeriod"/>
+        <Class IRI="#CulturalArtefact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contains"/>
+        <ObjectUnionOf>
+            <Class IRI="#Exhibition"/>
+            <Class IRI="#MuseumSpace"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#created"/>
+        <Class IRI="#Artist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#curatedBy"/>
+        <Class IRI="#Exhibition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#donatedBy"/>
+        <Class IRI="#CulturalArtefact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#exhibitedIn"/>
+        <Class IRI="#CulturalArtefact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#generatesNetworkData"/>
+        <Class IRI="#Visitor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <Class IRI="#CulturalArtefact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProvenanceRecord"/>
+        <Class IRI="#CulturalArtefact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hosts"/>
+        <Class IRI="#Exhibition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectUnionOf>
+            <Class IRI="#CulturalArtefact"/>
+            <Class IRI="#MuseumSpace"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locatedIn"/>
+        <ObjectUnionOf>
+            <Class IRI="#CulturalArtefact"/>
+            <Class IRI="#MuseumDevice"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#makesAPICall"/>
+        <Class IRI="#MuseumDevice"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#monitoredBy"/>
+        <Class IRI="#MuseumSpace"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performedBy"/>
+        <Class IRI="#ConservationEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#restoredBy"/>
+        <Class IRI="#CulturalArtefact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usesApp"/>
+        <Class IRI="#Visitor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#acquiredVia"/>
+        <Class IRI="#AcquisitionEvent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#appliedTo"/>
+        <Class IRI="#CulturalArtefact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsToPeriod"/>
+        <Class IRI="#HistoricalPeriod"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <ObjectUnionOf>
+            <Class IRI="#CulturalArtefact"/>
+            <Class IRI="#MuseumDevice"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#created"/>
+        <Class IRI="#CulturalArtefact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#curatedBy"/>
+        <Class IRI="#Curator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#donatedBy"/>
+        <Class IRI="#Donor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#exhibitedIn"/>
+        <Class IRI="#Exhibition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#generatesNetworkData"/>
+        <Class IRI="#APITraffic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasConservationStatus"/>
+        <Class IRI="#ConservationStatus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProvenanceRecord"/>
+        <Class IRI="#ProvenanceRecord"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hosts"/>
+        <Class IRI="#CulturalArtefact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectUnionOf>
+            <Class IRI="#CulturalArtefact"/>
+            <Class IRI="#MuseumSpace"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#locatedIn"/>
+        <Class IRI="#MuseumSpace"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#makesAPICall"/>
+        <Class IRI="#APITraffic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#monitoredBy"/>
+        <Class IRI="#SecurityCamera"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performedBy"/>
+        <Class IRI="#Conservator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#restoredBy"/>
+        <Class IRI="#Conservator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usesApp"/>
+        <Class IRI="#DigitalGuideApp"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#usesApp"/>
+            <ObjectProperty IRI="#makesAPICall"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#generatesNetworkData"/>
+    </SubObjectPropertyOf>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAccessionNumber"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasBirthYear"/>
+        <Datatype abbreviatedIRI="xsd:gYear"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCapacity"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasClosingDate"/>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCreationYear"/>
+        <Datatype abbreviatedIRI="xsd:gYear"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDimensions"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasInsuranceValue"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMaterial"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNationality"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasOpeningDate"/>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isInsured"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
